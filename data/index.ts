@@ -103,15 +103,9 @@ export const projects = [
     id: 4,
     title: "Movie Web App",
     des: "This project is a React application for managing movie and TV show information, favorites, and user accounts. It utilizes Redux for state management and React Router for navigation.This project also implements a backend API for a movie/TV show application. It utilizes Express for the server framework, Mongoose for database interaction (MongoDB), and various validation and security features.",
-    img: "/prod.svg",
-    iconLists: [
-      "/sea.svg",
-      "/numpy.svg",
-      "/python.svg",
-      "/pandas.svg",
-      "/mat.svg",
-    ],
-    link: "https://github.com/mahimadevi/amazon-product-review-sentiment-analysis",
+    img: "/mov.svg",
+     iconLists: ["/re.svg", "/js.svg", "/node.svg", "/mon.svg", "/css.svg"],
+    link: "https://github.com/mahimadevi/movieHub",
   },
 ];
 
