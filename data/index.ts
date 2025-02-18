@@ -71,6 +71,14 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "Movie Web App",
+    des: "This project is a React application for managing movie and TV show information, favorites, and user accounts. It utilizes Redux for state management and React Router for navigation.This project also implements a backend API for a movie/TV show application. It utilizes Express for the server framework, Mongoose for database interaction (MongoDB), and various validation and security features.",
+    img: "/mov.svg",
+     iconLists: ["/re.svg", "/js.svg", "/node.svg", "/mon.svg", "/css.svg"],
+    link: "https://github.com/mahimadevi/movieHub",
+  },
+  {
+    id: 2,
     title: "Social Media App",
     des: "Snapgram a modern social app with a stunning UI with a native mobile feel, a special tech stack, explore trending content, enjoy a personalized home feed, an infinite scroll feature, and customize your user profile. Effortlessly create and share posts to engage with a vibrant community! and amazing performance using React JS, Appwrite, TypeScript, and more.",
     img: "/sna.svg",
@@ -78,7 +86,7 @@ export const projects = [
     link: "https://snapgram-gk88.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "E-commerce Website ",
     des: "Introducing our complete e-commerce website, modeled after Amazon and built with the MERN stack. Enjoy robust features like user authentication, product management, shopping cart, and seamless order processing",
     img: "/am.svg",
@@ -86,7 +94,7 @@ export const projects = [
     link: "https://github.com/mahimadevi/Amazon-Clone",
   },
   {
-    id: 3,
+    id: 4,
     title: "Movie Recommender App",
     des: "A Movie Recommender System using content-based filtering. It suggests movies to users based on the similarities between their selected movie and other movies in the dataset. The system considers various features like genres, keywords, cast, and crew to provide personalized recommendations.",
     img: "/p3.svg",
@@ -99,14 +107,7 @@ export const projects = [
     ],
     link: "https://github.com/mahimadevi/Movie_recommendor",
   },
-  {
-    id: 4,
-    title: "Movie Web App",
-    des: "This project is a React application for managing movie and TV show information, favorites, and user accounts. It utilizes Redux for state management and React Router for navigation.This project also implements a backend API for a movie/TV show application. It utilizes Express for the server framework, Mongoose for database interaction (MongoDB), and various validation and security features.",
-    img: "/mov.svg",
-     iconLists: ["/re.svg", "/js.svg", "/node.svg", "/mon.svg", "/css.svg"],
-    link: "https://github.com/mahimadevi/movieHub",
-  },
+  
 ];
 
 export const workExperience = [
