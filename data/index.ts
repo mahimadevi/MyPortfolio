@@ -101,8 +101,8 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Product Review Sentiment Analysis",
-    des: "This project demonstrates sentiment analysis in Python using VADER and a pre-trained Roberta model from Hugging Face. It covers data reading, basic exploratory data analysis (EDA), and the application of sentiment analysis models. Analyze Amazon reviews' sentiment effectively with these two powerful techniques.",
+    title: "Movie Web App",
+    des: "This project is a React application for managing movie and TV show information, favorites, and user accounts. It utilizes Redux for state management and React Router for navigation.This project also implements a backend API for a movie/TV show application. It utilizes Express for the server framework, Mongoose for database interaction (MongoDB), and various validation and security features.",
     img: "/prod.svg",
     iconLists: [
       "/sea.svg",
@@ -118,7 +118,7 @@ export const projects = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Developer - Nama Water",
+    title: "Frontend Developer - VerveBridge",
     desc: "Developed and maintained user-facing features using modern frontend technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
