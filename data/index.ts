@@ -73,7 +73,7 @@ export const projects = [
     id: 1,
     title: "Movie Web App - MovieHub",
     des: "This project is a React application for managing movie and TV show information, favorites, and user accounts. It utilizes Redux for state management and React Router for navigation.This project also implements a backend API for a movie/TV show application. It utilizes Express for the server framework, Mongoose for database interaction (MongoDB), and various validation and security features.",
-    img: "/prod.svg",
+    img: "/mov.svg",
     iconLists: ["/re.svg", "/js.svg", "/node.svg", "/mon.svg", "/css.svg"],
     link: "https://movie-hub-n3r1.vercel.app/",
   },
