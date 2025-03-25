@@ -119,7 +119,7 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Frontend Engineer Intern - Exposys Data Lab",
+    title: "Frontend Developer - Exposys Data Lab",
     desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
