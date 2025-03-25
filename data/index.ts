@@ -71,24 +71,32 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Social Media App",
-    des: "Snapgram a modern social app with a stunning UI with a native mobile feel, a special tech stack, explore trending content, enjoy a personalized home feed, an infinite scroll feature, and customize your user profile. Effortlessly create and share posts to engage with a vibrant community! and amazing performance using React JS, Appwrite, TypeScript, and more.",
+    title: "Movie Web App - MovieHub",
+    des: "This project is a React application for managing movie and TV show information, favorites, and user accounts. It utilizes Redux for state management and React Router for navigation.This project also implements a backend API for a movie/TV show application. It utilizes Express for the server framework, Mongoose for database interaction (MongoDB), and various validation and security features.",
+    img: "/prod.svg",
+    iconLists: ["/re.svg", "/js.svg", "/node.svg", "/mon.svg", "/css.svg"],
+    link: "https://movie-hub-n3r1.vercel.app/",
+  },
+  {
+    id: 2,
+    title: "Social Media App - Snapgram",
+    des: " A sleek social app with trending content, infinite scroll & personalized feeds. Built with React, Appwrite & TypeScript for top performance.",
     img: "/sna.svg",
     iconLists: ["/re.svg", "/tail.svg", "/app.svg", "/ts.svg", "/rq.svg"],
     link: "https://snapgram-gk88.vercel.app/",
   },
   {
-    id: 2,
-    title: "E-commerce Website ",
+    id: 3,
+    title: "E-commerce Website - AmazonClone",
     des: "Introducing our complete e-commerce website, modeled after Amazon and built with the MERN stack. Enjoy robust features like user authentication, product management, shopping cart, and seamless order processing",
     img: "/am.svg",
     iconLists: ["/re.svg", "/js.svg", "/node.svg", "/mon.svg", "/css.svg"],
     link: "https://github.com/mahimadevi/Amazon-Clone",
   },
   {
-    id: 3,
+    id: 4,
     title: "Movie Recommender App",
-    des: "A Movie Recommender System using content-based filtering. It suggests movies to users based on the similarities between their selected movie and other movies in the dataset. The system considers various features like genres, keywords, cast, and crew to provide personalized recommendations.",
+    des: "AI-powered recommender that suggests films based on genres, cast, and keywords from your favorite movies. Uses content-based filtering for personalized picks.",
     img: "/p3.svg",
     iconLists: [
       "/stre.svg",
@@ -99,26 +107,12 @@ export const projects = [
     ],
     link: "https://github.com/mahimadevi/Movie_recommendor",
   },
-  {
-    id: 4,
-    title: "Product Review Sentiment Analysis",
-    des: "This project demonstrates sentiment analysis in Python using VADER and a pre-trained Roberta model from Hugging Face. It covers data reading, basic exploratory data analysis (EDA), and the application of sentiment analysis models. Analyze Amazon reviews' sentiment effectively with these two powerful techniques.",
-    img: "/prod.svg",
-    iconLists: [
-      "/sea.svg",
-      "/numpy.svg",
-      "/python.svg",
-      "/pandas.svg",
-      "/mat.svg",
-    ],
-    link: "https://github.com/mahimadevi/amazon-product-review-sentiment-analysis",
-  },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Developer - Nama Water",
+    title: "Software Developer - Nama Water",
     desc: "Developed and maintained user-facing features using modern frontend technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
